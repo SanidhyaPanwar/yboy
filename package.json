@@ -1,13 +1,12 @@
 {
-  "name": "sanidhyaportfolio",
-  "version": "2.04.25",
+  "name": "yboy",
+  "version": "0.0.1",
   "private": true,
-  "homepage": "https://sanidhyapanwar.github.io/",
+  "homepage": "https://sanidhyapanwar.github.io/yboy",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
-    "gh-pages": "^3.2.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.4.1",
@@ -51,5 +50,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SanidhyaPanwar/sanidhyapanwar.github.io/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

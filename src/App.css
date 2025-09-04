@@ -322,7 +322,7 @@ section .projectTitle {
 	text-align: justify;
 	font-size: 18px;
 	line-height: 1.6;
-	color: #333;
+	/* color: #333; */
   }
   
   .about .about-content .right ul {
