@@ -1,27 +1,28 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import pic1 from '../../img/Project/Covid/covid.png';
-import pic2 from '../../img/Project/Covid/goal.png';
-import pic3 from '../../img/Project/Covid/tech.png';
-import pic4 from '../../img/Project/Covid/feature.png';
+import pic1 from '../../img/Range/Indrapal/homepage.png';
+import pic2 from '../../img/Range/Indrapal/goal.png';
+import pic3 from '../../img/Range/Indrapal/tech.jpg';
+import pic4 from '../../img/Range/Indrapal/feature.png';
 
-const Covid = () => {
+const Indrapal = () => {
 	return (
 		<section className="experience" id="experience">
 			<div className="max-width">
-				<h2 className="projectTitle">Covid 19 Case Tracker</h2>
+				<h2 className="rangeTitle">Panwar Chikitsa Kendra</h2>
 				<div className="experience-content">
 					<div className="column left">
 						<img src={pic1} alt="Profile Pic" />
 					</div>
 					<div className="column right">
 						<div className="text">
-							Project Overview & My Role :<br />
-							<span>April 2021</span>
+							Range Overview & My Role :<br />
+							<span>May 2021</span>
 						</div>
 						<ul>
-							<li>It is a simple tracker website which tells number of covid cases in India</li>
-							<li>Developed by using HTML, CSS, JS, Covid 19 API</li>
+							<li>Website made for my father so that patients can know better about him and contact him easily</li>
+							<li>Worked as a Front End Developer</li>
+							<li>Developed by using HTML, CSS, JS, ReactJS</li>
 							<li>Responsible for designing UI and content creation</li>
 						</ul>
 					</div>
@@ -37,8 +38,8 @@ const Covid = () => {
 							</span>
 						</div>
 						<ul>
-							<li>Made this to brush up my web development skills</li>
-							<li>Gave myself a challenge to make a complete website in a week</li>
+							<li>Made this website for my father's clinic</li>
+							<li>It helped patients to know more about him and his clinic</li>
 							<li>Got a chance to put my learnings in a real life scenario</li>
 						</ul>
 					</div>
@@ -60,9 +61,8 @@ const Covid = () => {
 							</span>
 						</div>
 						<ul>
-							<li>Front end Developed by using HTML, CSS, JS</li>
-							<li>Public Covid 19 API</li>
-							<li>API data fetch using JS</li>
+							<li>Front end Developed by using JSX, ReactJS</li>
+							<li>Styling defined by CSS, JS </li>
 						</ul>
 					</div>
 				</div>
@@ -77,11 +77,10 @@ const Covid = () => {
 							</span>
 						</div>
 						<ul>
-							<li>User can know about number of active cases, total cases, number of deaths by Covid 19</li>
-							<li>User can select any country from search box and see results</li>
-							<li>User also sees a graphical representation with different colours to increase clarity</li>
-							<li>User can see daily increase as well</li>
-                            <Link to="/projects">Back to Projects</Link>
+							<li>Detailed knowledge related to my father's degree and expertise</li>
+							<li>The website is deployed on heroku app, the patients can access it from anywhere anytime</li>
+							<li>Detailed mentioning about the services offered at clinic</li>
+                            <Link to="/ranges">Back to Ranges</Link>
                         </ul>
 					</div>
 					<div className="column left">
@@ -93,4 +92,4 @@ const Covid = () => {
 	);
 };
 
-export default Covid;
+export default Indrapal;

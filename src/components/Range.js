@@ -1,37 +1,38 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import pic1 from '../img/verizon.jpg';
+import pic1 from '../img/animalKeychains.jpg';
 import pic2 from '../img/osi.png';
 import pic3 from '../img/ig.JPG';
 import pic4 from '../img/Portfolio.JPG';
 import pic5 from '../img/breakingbad.png';
 import pic6 from '../img/covid.jpg';
 
-const Projects = () => {
+const Ranges = () => {
 	return (
-		<section className="projects" id="projects">
+		<section className="ranges" id="ranges">
 			<div className="max-width">
-				<h2 className="title">My Projects</h2>
-				<div className="project-content">
+				<h2 className="title">My Ranges</h2>
+				<div className="range-content">
 					<div className="card">
 						<div className="box">
-							<img src={pic1} alt="SaaS" />
-							<div className="text">Verizon OneFiber</div>
+							<img src={pic1} alt="AnimalKeychains" />
+							<div className="text">Animal Keychains</div>
 							<p>
-								It rolled up all of the telco's fibre requirements and plans into one project, which
-								consumers may utilise to connect to the 5G network across all sectors.
+								This is our cute crochet animal themed keychains.
 							</p>
-							<div className="projectLinks">
-								<div className="link1">
-									<span>NDA Signed</span>
+							<div className="rangeLinks">
+							<div className="link1">
+									<a href="https://www.instagram.com/p/CddKLqgLXnD/?img_index=1" target="_blank" rel="noreferrer">
+										Visit Range
+									</a>
 								</div>
 								<div className="link2">
-									<Link to="/project/verizon">Know More</Link>
+									<Link to="/range/animal-keychains">Know More</Link>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div className="card">
+					{/* <div className="card">
 						<div className="box">
 							<img src={pic2} alt="" />
 							<div className="text">OSI Farming</div>
@@ -39,14 +40,14 @@ const Projects = () => {
 								It is a NodeJS based website that rents out farm equipment to poor farmers who can't afford to buy their
 								own.
 							</p>
-							<div className="projectLinks">
+							<div className="rangeLinks">
 								<div className="link1">
-									<a href="https://osi-farming.herokuapp.com/" target="_blank" rel="noreferrer">
-										Visit Project
+									<a href="https://www.instagram.com/p/CddKLqgLXnD/?img_index=1" target="_blank" rel="noreferrer">
+										Visit Range
 									</a>
 								</div>
 								<div className="link2">
-									<Link to="/project/osi-farming">Know More</Link>
+									<Link to="/range/osi-farming">Know More</Link>
 								</div>
 							</div>
 						</div>
@@ -59,14 +60,14 @@ const Projects = () => {
 								It is based on MERN Stack and contains functions such as
 								password reset, following, unfollowing, liking, and commenting, among others.
 							</p>
-							<div className="projectLinks">
+							<div className="rangeLinks">
 								<div className="link1">
-									<a href="http://sanidhyainsta.herokuapp.com/" target="_blank" rel="noreferrer">
-										Visit Project
+									<a href="https://www.instagram.com/p/CddKLqgLXnD/?img_index=1" target="_blank" rel="noreferrer">
+										Visit Range
 									</a>
 								</div>
 								<div className="link2">
-									<Link to="/project/sanidhya-insta">Know More</Link>
+									<Link to="/range/sanidhya-insta">Know More</Link>
 								</div>
 							</div>
 						</div>
@@ -79,14 +80,14 @@ const Projects = () => {
 								A website for my father's (Dr.Indra Pal Singh) clinic and the services he provides. My
 								site building abilities were put to good use.
 							</p>
-							<div className="projectLinks">
+							<div className="rangeLinks">
 								<div className="link1">
-									<a href="http://indrapal.herokuapp.com/" target="_blank" rel="noreferrer">
-										Visit Project
+									<a href="https://www.instagram.com/p/CddKLqgLXnD/?img_index=1" target="_blank" rel="noreferrer">
+										Visit Range
 									</a>
 								</div>
 								<div className="link2">
-									<Link to="/project/indrapal">Know More</Link>
+									<Link to="/range/indrapal">Know More</Link>
 								</div>
 							</div>
 						</div>
@@ -99,14 +100,14 @@ const Projects = () => {
 								Using their public API, a website can acquire a list of characters and their details
 								from the hit show Breaking Bad.
 							</p>
-							<div className="projectLinks">
+							<div className="rangeLinks">
 								<div className="link1">
-									<a href="http://breakingbadcharacter.herokuapp.com/" target="_blank" rel="noreferrer">
-										Visit Project
+									<a href="https://www.instagram.com/p/CddKLqgLXnD/?img_index=1" target="_blank" rel="noreferrer">
+										Visit Range
 									</a>
 								</div>
 								<div className="link2">
-									<Link to="/project/breaking-bad">Know More</Link>
+									<Link to="/range/breaking-bad">Know More</Link>
 								</div>
 							</div>
 						</div>
@@ -119,22 +120,22 @@ const Projects = () => {
 								A simple covid-19 tracker website that uses a public API to retrieve covid-19
 								informationfor different countries.
 							</p>
-							<div className="projectLinks">
+							<div className="rangeLinks">
 								<div className="link1">
-									<a href="https://sanidhyapanwar.github.io/Covid_Tracker/" target="_blank" rel="noreferrer">
-										Visit Project
+									<a href="https://www.instagram.com/p/CddKLqgLXnD/?img_index=1" target="_blank" rel="noreferrer">
+										Visit Range
 									</a>
 								</div>
 								<div className="link2">
-									<Link to="/project/covid">Know More</Link>
+									<Link to="/range/covid">Know More</Link>
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</section>
 	);
 };
 
-export default Projects;
+export default Ranges;

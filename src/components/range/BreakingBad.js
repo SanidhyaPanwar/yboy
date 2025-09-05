@@ -1,26 +1,26 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import pic1 from '../../img/Project/Indrapal/homepage.png';
-import pic2 from '../../img/Project/Indrapal/goal.png';
-import pic3 from '../../img/Project/Indrapal/tech.jpg';
-import pic4 from '../../img/Project/Indrapal/feature.png';
+import pic1 from '../../img/Range/BreakingBad/breakingBad.jpg';
+import pic2 from '../../img/Range/BreakingBad/goal.png';
+import pic3 from '../../img/Range/BreakingBad/tech.jpg';
+import pic4 from '../../img/Range/BreakingBad/feature.png';
 
-const Indrapal = () => {
+const BreakingBad = () => {
 	return (
 		<section className="experience" id="experience">
 			<div className="max-width">
-				<h2 className="projectTitle">Panwar Chikitsa Kendra</h2>
+				<h2 className="rangeTitle">Breaking Bad Wiki</h2>
 				<div className="experience-content">
 					<div className="column left">
 						<img src={pic1} alt="Profile Pic" />
 					</div>
 					<div className="column right">
 						<div className="text">
-							Project Overview & My Role :<br />
+							Range Overview & My Role :<br />
 							<span>May 2021</span>
 						</div>
 						<ul>
-							<li>Website made for my father so that patients can know better about him and contact him easily</li>
+							<li>It is a website containing detailed list of characters of popular show "Breaking Bad"</li>
 							<li>Worked as a Front End Developer</li>
 							<li>Developed by using HTML, CSS, JS, ReactJS</li>
 							<li>Responsible for designing UI and content creation</li>
@@ -38,9 +38,9 @@ const Indrapal = () => {
 							</span>
 						</div>
 						<ul>
-							<li>Made this website for my father's clinic</li>
-							<li>It helped patients to know more about him and his clinic</li>
-							<li>Got a chance to put my learnings in a real life scenario</li>
+							<li>Made this to brush up my web development skills</li>
+							<li>Gave myself a challenge to make a complete website in a week</li>
+							<li>Had put my learnings in a real life scenario</li>
 						</ul>
 					</div>
 					<div className="column left">
@@ -61,8 +61,9 @@ const Indrapal = () => {
 							</span>
 						</div>
 						<ul>
-							<li>Front end Developed by using JSX, ReactJS</li>
-							<li>Styling defined by CSS, JS </li>
+							<li>Front end Developed by using HTML, CSS, JS, ReactJS</li>
+							<li>Public Breaking Bad Character API</li>
+							<li>Used axios package for data fetching</li>
 						</ul>
 					</div>
 				</div>
@@ -77,11 +78,11 @@ const Indrapal = () => {
 							</span>
 						</div>
 						<ul>
-							<li>Detailed knowledge related to my father's degree and expertise</li>
-							<li>The website is deployed on heroku app, the patients can access it from anywhere anytime</li>
-							<li>Detailed mentioning about the services offered at clinic</li>
-                            <Link to="/projects">Back to Projects</Link>
-                        </ul>
+							<li>User can search any of the favourite character</li>
+							<li>Detailed info on characters by flipping their photo card</li>
+							<li>Deployed on Herokuapp, hence accessible anywhere</li>
+						</ul>
+                        <Link to="/ranges">Back to Ranges</Link>
 					</div>
 					<div className="column left">
 						<img src={pic4} alt="Profile Pic" className="image-right" />
@@ -92,4 +93,4 @@ const Indrapal = () => {
 	);
 };
 
-export default Indrapal;
+export default BreakingBad;

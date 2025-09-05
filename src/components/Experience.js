@@ -48,7 +48,7 @@ const experiences = [
     responsibilities: [
       "Developed and maintained web applications using ReactJS and Java.",
       "Worked closely with product managers to transition a multi-page web app into a single-page application.",
-      "Collaborated with onshore and offshore teams to enhance project efficiency.",
+      "Collaborated with onshore and offshore teams to enhance range efficiency.",
       "Conducted code reviews and improved software quality by enforcing best practices.",
       "Implemented CI/CD pipelines using Jenkins, improving deployment speed and reliability.",
     ],
@@ -62,10 +62,10 @@ const experiences = [
     logo: pic4,
     responsibilities: [
       "Mentored 100+ students in full-stack web development, focusing on the MERN stack.",
-      "Conducted live coding sessions, hands-on workshops, and project-based learning modules.",
+      "Conducted live coding sessions, hands-on workshops, and range-based learning modules.",
       "Hosted doubt-clearing sessions and technical webinars for better concept clarity.",
-      "Guided students in building real-world projects and improving their problem-solving skills.",
-      "Provided career advice and helped students with their final-year projects and internships.",
+      "Guided students in building real-world ranges and improving their problem-solving skills.",
+      "Provided career advice and helped students with their final-year ranges and internships.",
     ],
     link: "http://tathastu.twowaits.in/",
   },
@@ -93,7 +93,7 @@ const experiences = [
     responsibilities: [
       "Trained over 75+ first-year students in web development fundamentals.",
       "Conducted hands-on coding sessions to teach best practices in programming.",
-      "Organized live project demonstrations to provide practical exposure.",
+      "Organized live range demonstrations to provide practical exposure.",
       "Mentored students in choosing the right career path in software development.",
       "Assisted in structuring course content and improving the learning experience.",
     ],

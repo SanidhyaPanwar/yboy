@@ -1,30 +1,33 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import pic1 from '../../img/Project/SanidhyaInsta/sanidhyaInsta.png';
-import pic2 from '../../img/Project/SanidhyaInsta/goal.png';
-import pic3 from '../../img/Project/SanidhyaInsta/tech.png';
-import pic4 from '../../img/Project/SanidhyaInsta/feature.png';
+import pic1 from '../../img/Range/OSI/osi.png';
+import pic2 from '../../img/Range/OSI/poorFarmer.jpg';
+import pic3 from '../../img/Range/OSI/tech.jpg';
+import pic4 from '../../img/Range/OSI/feature.jpg';
 
-const SanidhyaInsta = () => {
+const OsiFarming = () => {
 	return (
 		<section className="experience" id="experience">
 			<div className="max-width">
-				<h2 className="projectTitle">SanidhyaInsta - A MERN based Instagram Clone</h2>
+				<h2 className="rangeTitle">OSI Farming</h2>
 				<div className="experience-content">
 					<div className="column left">
 						<img src={pic1} alt="Profile Pic" />
 					</div>
 					<div className="column right">
 						<div className="text">
-							Project Overview & My Role :<br />
-							<span>May 2021</span>
+							Range Overview & My Role :<br />
+							<span>May 2020 - September 2020</span>
 						</div>
 						<ul>
-							<li>It is a clone to our commonly used app: Instagram</li>
+							<li>
+								It is a Website to give Farming Equipment on Rent to the poor farmers who cannot afford
+								to buy the Equipment themselves
+							</li>
 							<li>Worked as a Full Stack Developer</li>
-							<li>Developed by using MERN stack</li>
-							<li>Responsible for both UI designing and handling DB</li>
-							<li>Used as an example to teach students about MERN Stack</li>
+							<li>Developed by using HTML, CSS, JS, Express, Node.js, MongoDB</li>
+							<li>Responsible for Back End Development</li>
+							<li>Responsible for Handling the Database</li>
 						</ul>
 					</div>
 				</div>
@@ -35,15 +38,16 @@ const SanidhyaInsta = () => {
 					<div className="column right">
 						<div className="text">
 							<span>
-								<h2>Goals Achieved :</h2>
+								<h2>Problem to be Solved :</h2>
 							</span>
 						</div>
 						<ul>
-							<li>Made this to brush up my MERN stack skills</li>
-							<li>Gave myself a challenge to make a complete clone in 10 Days</li>
+							<li>Poor Farmers do not have Equipment to work or money to buy that Equipment</li>
+							<li>They have to take it on high rent from big farmers</li>
+							<li>There is no standard rate to compare rent from</li>
 							<li>If they fail to return within time , they get charged a very large fine</li>
-							<li>Got a chance to Had put my learnings in a fun and interesting project</li>
-							<li>Helped coach 50+ students by taking it as an example</li>
+							<li>They do not have many options</li>
+							<li>Their profits are very low</li>
 						</ul>
 					</div>
 					<div className="column left">
@@ -69,6 +73,7 @@ const SanidhyaInsta = () => {
 							<li>Database handled using MongoDB Atlas</li>
 							<li>Authentication Using JWT Tokens</li>
 							<li>Email Service using Sendgrid Transport mailing API</li>
+							<li>Payment Gateway using Stripe Payment API</li>
 						</ul>
 					</div>
 				</div>
@@ -85,10 +90,10 @@ const SanidhyaInsta = () => {
 						<ul>
 							<li>User receive a SignUp E-mail as soon as they sign up to our website</li>
 							<li>Password reset using the mailing service</li>
-							<li>User can follow and unfollow other accounts</li>
-							<li>User can choose to see all posts or only the people they follow</li>
-							<li>It also allows us to like and comment on other's posts</li>
-							<Link to="/projects">Back to Projects</Link>
+							<li>PDF Invoice generation and download from order history page</li>
+							<li>Credit/Debit Card payment feature</li>
+							<li>User can buy any product or sell their own products as well</li>
+							<Link to="/ranges">Back to Ranges</Link>
                         </ul>
 					</div>
 					<div className="column left">
@@ -100,4 +105,4 @@ const SanidhyaInsta = () => {
 	);
 };
 
-export default SanidhyaInsta;
+export default OsiFarming;
