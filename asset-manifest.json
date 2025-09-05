@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/yboy/static/css/main.2dcce246.css",
-    "main.js": "/yboy/static/js/main.dcd08bb7.js",
+    "main.css": "/yboy/static/css/main.06bae509.css",
+    "main.js": "/yboy/static/js/main.e090b389.js",
     "static/media/bg-dark.jpg": "/yboy/static/media/bg-dark.11d97baf0231fa64fa4c.jpg",
     "static/media/cherry.mp4": "/yboy/static/media/cherry.542859016b1f2ff12ace.mp4",
+    "static/media/oogway-junior.png": "/yboy/static/media/oogway-junior.1879b4e44f4787fc2cb7.png",
     "static/media/bg-light.jpg": "/yboy/static/media/bg-light.72e7b56ebb8e452d283a.jpg",
+    "static/media/miss-charmie.png": "/yboy/static/media/miss-charmie.5df531d9810900d18fa1.png",
     "static/media/dps.png": "/yboy/static/media/dps.e3b3ee22d9403cf26e7c.png",
     "static/media/poorFarmer.jpg": "/yboy/static/media/poorFarmer.5fa3be8ce167cf48afd9.jpg",
     "static/media/homepage.png": "/yboy/static/media/homepage.4483a9cec581dec1d01d.png",
@@ -12,12 +14,13 @@
     "static/media/covid.png": "/yboy/static/media/covid.38b6d561db9629ef9cc7.png",
     "static/media/breakingBad.jpg": "/yboy/static/media/breakingBad.d496937e8c51e770c183.jpg",
     "static/media/feature.png": "/yboy/static/media/feature.2afa95dae443bf309ce8.png",
-    "static/media/tech.jpg": "/yboy/static/media/tech.5f641f49279df77a079c.jpg",
-    "static/media/feature.jpg": "/yboy/static/media/feature.2e8dcccb053d26d4b05b.jpg",
-    "static/media/internet.jpg": "/yboy/static/media/internet.045f091de36386379b51.jpg",
+    "static/media/tech.jpg": "/yboy/static/media/tech.ee3476225d8a80763016.jpg",
+    "static/media/feature.jpg": "/yboy/static/media/feature.11380b2e75d2e46c0316.jpg",
+    "static/media/animalKeychains.jpg": "/yboy/static/media/animalKeychains.f01d5c1c8ac6f9d89890.jpg",
+    "static/media/mr-hootie.jpg": "/yboy/static/media/mr-hootie.460cbb4d33a983bbe01e.jpg",
+    "static/media/mr-otto.jpg": "/yboy/static/media/mr-otto.2aa34ff90f7ea74ddce1.jpg",
     "static/media/barclaysLogo.png": "/yboy/static/media/barclaysLogo.b0260f40f97894a56127.png",
     "static/media/osi.png": "/yboy/static/media/osi.ebbe38f7dc3521c077e4.png",
-    "static/media/verizon.jpg": "/yboy/static/media/verizon.fd6c337d15202ae8658e.jpg",
     "static/media/tech.png": "/yboy/static/media/tech.2519f7e413d0c0d3a5a1.png",
     "static/media/cpp.png": "/yboy/static/media/cpp.a4d24ea5aab1f0fecef4.png",
     "static/media/covid.jpg": "/yboy/static/media/covid.4fce938801c9555d99db.jpg",
@@ -42,11 +45,11 @@
     "static/media/sanidhyaInsta.png": "/yboy/static/media/sanidhyaInsta.c6f2a69ff902279cbd9b.png",
     "static/media/html.png": "/yboy/static/media/html.d84d01eb65ed8bb7f5b4.png",
     "index.html": "/yboy/index.html",
-    "main.2dcce246.css.map": "/yboy/static/css/main.2dcce246.css.map",
-    "main.dcd08bb7.js.map": "/yboy/static/js/main.dcd08bb7.js.map"
+    "main.06bae509.css.map": "/yboy/static/css/main.06bae509.css.map",
+    "main.e090b389.js.map": "/yboy/static/js/main.e090b389.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dcce246.css",
-    "static/js/main.dcd08bb7.js"
+    "static/css/main.06bae509.css",
+    "static/js/main.e090b389.js"
   ]
 }
