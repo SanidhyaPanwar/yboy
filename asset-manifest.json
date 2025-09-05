@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/yboy/static/css/main.06bae509.css",
-    "main.js": "/yboy/static/js/main.e090b389.js",
+    "main.js": "/yboy/static/js/main.bc60023c.js",
     "static/media/bg-dark.jpg": "/yboy/static/media/bg-dark.11d97baf0231fa64fa4c.jpg",
     "static/media/cherry.mp4": "/yboy/static/media/cherry.542859016b1f2ff12ace.mp4",
     "static/media/oogway-junior.png": "/yboy/static/media/oogway-junior.1879b4e44f4787fc2cb7.png",
@@ -46,10 +46,10 @@
     "static/media/html.png": "/yboy/static/media/html.d84d01eb65ed8bb7f5b4.png",
     "index.html": "/yboy/index.html",
     "main.06bae509.css.map": "/yboy/static/css/main.06bae509.css.map",
-    "main.e090b389.js.map": "/yboy/static/js/main.e090b389.js.map"
+    "main.bc60023c.js.map": "/yboy/static/js/main.bc60023c.js.map"
   },
   "entrypoints": [
     "static/css/main.06bae509.css",
-    "static/js/main.e090b389.js"
+    "static/js/main.bc60023c.js"
   ]
 }
