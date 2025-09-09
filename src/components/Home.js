@@ -8,7 +8,7 @@ const Home = () => {
             <div className="home-content">
                 <div className="text-1">Hello, this is</div>
                 <div className="text-2">Your Box of Yarn</div>
-                <div className="text-3">And we're excited to give you <span className="typing">one stop crochet solution</span></div>
+                <div className="text-3">we offer <span className="typing">one stop crochet solution</span></div>
             </div>
           </div>
       </div>

@@ -30,12 +30,12 @@ const AnimalKeychains = () => {
               <li>Price: ₹225/-</li>
             </ul>
             <a
-              href="https://wa.me/917895677940?text=Hi%20I%20want%20to%20order%20Mr.%20Otto!"
+              href="https://instagram.com/yourboxofyarn"
               target="_blank"
               rel="noopener noreferrer"
               className="buy-now-button"
             >
-              🛍️ Buy Now via WhatsApp DM
+              🛍️ Buy Now via Instagram DM
             </a>
           </div>
         </div>
