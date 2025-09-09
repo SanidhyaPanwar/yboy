@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/yboy/static/css/main.06bae509.css",
-    "main.js": "/yboy/static/js/main.bc60023c.js",
-    "static/media/bg-dark.jpg": "/yboy/static/media/bg-dark.11d97baf0231fa64fa4c.jpg",
+    "main.css": "/yboy/static/css/main.cbe21639.css",
+    "main.js": "/yboy/static/js/main.50b4d07a.js",
+    "static/media/bg-dark.jpg": "/yboy/static/media/bg-dark.928f3a25584cdae5f1ae.jpg",
     "static/media/cherry.mp4": "/yboy/static/media/cherry.542859016b1f2ff12ace.mp4",
     "static/media/oogway-junior.png": "/yboy/static/media/oogway-junior.1879b4e44f4787fc2cb7.png",
     "static/media/bg-light.jpg": "/yboy/static/media/bg-light.72e7b56ebb8e452d283a.jpg",
@@ -45,11 +45,11 @@
     "static/media/sanidhyaInsta.png": "/yboy/static/media/sanidhyaInsta.c6f2a69ff902279cbd9b.png",
     "static/media/html.png": "/yboy/static/media/html.d84d01eb65ed8bb7f5b4.png",
     "index.html": "/yboy/index.html",
-    "main.06bae509.css.map": "/yboy/static/css/main.06bae509.css.map",
-    "main.bc60023c.js.map": "/yboy/static/js/main.bc60023c.js.map"
+    "main.cbe21639.css.map": "/yboy/static/css/main.cbe21639.css.map",
+    "main.50b4d07a.js.map": "/yboy/static/js/main.50b4d07a.js.map"
   },
   "entrypoints": [
-    "static/css/main.06bae509.css",
-    "static/js/main.bc60023c.js"
+    "static/css/main.cbe21639.css",
+    "static/js/main.50b4d07a.js"
   ]
 }

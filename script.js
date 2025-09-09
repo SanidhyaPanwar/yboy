@@ -48,8 +48,8 @@ $(document).ready(function(){
     
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Cute Keyrings", "the Perfect Knit", "Cozy sweaters"],
-        typeSpeed: 100,
+        strings: ["Cute Keyrings", "cozy Knits","slow Fashion","Made-for-You Knits"],
+        typeSpeed: 120,
         backSpeed: 60,
         loop: true
     });
