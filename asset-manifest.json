@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/yboy/static/css/main.e720c892.css",
-    "main.js": "/yboy/static/js/main.a846ac31.js",
+    "main.css": "/yboy/static/css/main.97757ff4.css",
+    "main.js": "/yboy/static/js/main.777d8681.js",
     "static/media/bg-dark.jpg": "/yboy/static/media/bg-dark.928f3a25584cdae5f1ae.jpg",
+    "static/media/product4.MOV": "/yboy/static/media/product4.fcb4f258254b9ec87393.MOV",
     "static/media/cherry.mp4": "/yboy/static/media/cherry.542859016b1f2ff12ace.mp4",
     "static/media/product2.mp4": "/yboy/static/media/product2.5dd182e39cd5092a7110.mp4",
     "static/media/oogway-junior.png": "/yboy/static/media/oogway-junior.1879b4e44f4787fc2cb7.png",
@@ -16,9 +17,7 @@
     "static/media/covid.png": "/yboy/static/media/covid.38b6d561db9629ef9cc7.png",
     "static/media/crochetBags.jpg": "/yboy/static/media/crochetBags.a99a5b9181f945370aea.jpg",
     "static/media/product5.jpg": "/yboy/static/media/product5.b9a6f12ac7b3fbe16f06.jpg",
-    "static/media/breakingBad.jpg": "/yboy/static/media/breakingBad.d496937e8c51e770c183.jpg",
-    "static/media/feature.png": "/yboy/static/media/feature.fd3ee25903ac45c54e5b.png",
-    "static/media/tech.jpg": "/yboy/static/media/tech.ee3476225d8a80763016.jpg",
+    "static/media/tech.jpg": "/yboy/static/media/tech.dca8b491705da361cc5b.jpg",
     "static/media/animalKeychains.jpg": "/yboy/static/media/animalKeychains.f01d5c1c8ac6f9d89890.jpg",
     "static/media/mr-hootie.jpg": "/yboy/static/media/mr-hootie.460cbb4d33a983bbe01e.jpg",
     "static/media/mr-otto.jpg": "/yboy/static/media/mr-otto.2aa34ff90f7ea74ddce1.jpg",
@@ -26,19 +25,20 @@
     "static/media/dreamCatchers.jpg": "/yboy/static/media/dreamCatchers.b9a6f12ac7b3fbe16f06.jpg",
     "static/media/barclaysLogo.png": "/yboy/static/media/barclaysLogo.b0260f40f97894a56127.png",
     "static/media/product3.jpg": "/yboy/static/media/product3.732792510b51f72dbf31.jpg",
+    "static/media/feature.png": "/yboy/static/media/feature.fd3ee25903ac45c54e5b.png",
     "static/media/cpp.png": "/yboy/static/media/cpp.a4d24ea5aab1f0fecef4.png",
+    "static/media/crochetTops.jpg": "/yboy/static/media/crochetTops.6c9daa44aacd7ef8a031.jpg",
     "static/media/tech.png": "/yboy/static/media/tech.2519f7e413d0c0d3a5a1.png",
+    "static/media/product2.jpg": "/yboy/static/media/product2.579db1cd1dc4f80349c9.jpg",
     "static/media/covid.jpg": "/yboy/static/media/covid.4fce938801c9555d99db.jpg",
     "static/media/IC-KIET.jpg": "/yboy/static/media/IC-KIET.ec0f4f582af0e65163a8.jpg",
     "static/media/product4.jpg": "/yboy/static/media/product4.d3059a54cdeb9aba5078.jpg",
-    "static/media/Portfolio.JPG": "/yboy/static/media/Portfolio.c174137744234c2ce190.JPG",
     "static/media/breakingbad.png": "/yboy/static/media/breakingbad.a0d59217f4bdd0c3c184.png",
     "static/media/tcs.jpg": "/yboy/static/media/tcs.152110e0afdc3c15c84f.jpg",
     "static/media/ieo.jpg": "/yboy/static/media/ieo.a45444e36fac797df695.jpg",
     "static/media/mongodb.png": "/yboy/static/media/mongodb.d420aa02330096942f4e.png",
     "static/media/python.png": "/yboy/static/media/python.7f4ab9230c894b8d486d.png",
     "static/media/java.png": "/yboy/static/media/java.571b0a15ae3ed305b1a5.png",
-    "static/media/product2.jpg": "/yboy/static/media/product2.579db1cd1dc4f80349c9.jpg",
     "static/media/twowaits.png": "/yboy/static/media/twowaits.8c83f58e1eef77c751df.png",
     "static/media/js.png": "/yboy/static/media/js.b66d964741555c0daebd.png",
     "static/media/css.png": "/yboy/static/media/css.17b8d4e390113694de87.png",
@@ -50,11 +50,11 @@
     "static/media/express.png": "/yboy/static/media/express.e4c63d89f64d18038731.png",
     "static/media/html.png": "/yboy/static/media/html.d84d01eb65ed8bb7f5b4.png",
     "index.html": "/yboy/index.html",
-    "main.e720c892.css.map": "/yboy/static/css/main.e720c892.css.map",
-    "main.a846ac31.js.map": "/yboy/static/js/main.a846ac31.js.map"
+    "main.97757ff4.css.map": "/yboy/static/css/main.97757ff4.css.map",
+    "main.777d8681.js.map": "/yboy/static/js/main.777d8681.js.map"
   },
   "entrypoints": [
-    "static/css/main.e720c892.css",
-    "static/js/main.a846ac31.js"
+    "static/css/main.97757ff4.css",
+    "static/js/main.777d8681.js"
   ]
 }
