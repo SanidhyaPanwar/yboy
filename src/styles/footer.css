@@ -1,0 +1,58 @@
+/* Footer Section Styling */
+footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    gap: 10px;
+  }
+  
+  footer span {
+    display: block;
+  }
+  
+  footer span a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  footer span a:hover {
+    text-decoration: none;
+  }
+  
+  footer span .social {
+    display: flex;
+    gap: 10px; /* spacing between icons */
+  }
+  
+  footer span .social a {
+    display: flex;                   /* use flex for centering */
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+  }
+  
+  /* Brand colors */
+  footer span .social a:nth-child(1) { background: #FF0000; }  /* YouTube */
+  footer span .social a:nth-child(2) { background: #C13584; }  /* Instagram */
+  footer span .social a:nth-child(3) { background: #0088cc; }  /* Telegram */
+  
+  /* Brand hover glows */
+  footer span .social a:nth-child(1):hover { box-shadow: 0 0 12px rgba(255,0,0,0.5); }
+  footer span .social a:nth-child(2):hover { box-shadow: 0 0 12px rgba(193,53,132,0.5); }
+  footer span .social a:nth-child(3):hover { box-shadow: 0 0 12px rgba(0,136,204,0.5); }
+  
+  footer span .social a:hover {
+    transform: scale(1.15);
+  }
+  

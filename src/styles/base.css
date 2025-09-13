@@ -1,0 +1,110 @@
+/* Fonts & Google Import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+/* Root Variables */
+:root {
+  --primary: rgb(216, 165, 247);
+  --text-color: #222;
+  --bkg-color: #fff;
+  --bg-img: url("../media/bg-light.jpg");
+  --anchor-color: #0033cc;
+}
+
+body.dark-theme {
+  --text-color: #eee;
+  --bkg-color: #121212;
+  --bg-img: url("../media/bg-dark.jpg");
+  --anchor-color: #809fff;
+}
+
+/* Global Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Body Styles */
+body {
+  color: var(--text-color);
+  background: var(--bkg-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Links */
+a {
+  color: var(--anchor-color);
+  transition: color 0.3s ease;
+}
+
+/* Headings & Colored Text */
+.colored {
+  color: var(--primary);
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Section Padding & Max Width */
+section {
+  padding: 100px 0;
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section Titles */
+section .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+section .title::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 220px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+
+section .title::after {
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  font-size: 20px;
+  color: var(--primary);
+  padding: 0 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,86 @@
+/* Categories / Products Section Styling */
+.categories .title::after {
+    content: "";
+  }
+  
+  .categories .categories-content .card {
+    margin: 10px;
+    width: calc(33% - 20px);
+    display: inline-table;
+    height: 465px;
+    background: rgba(181, 0, 252, 0.3);
+    text-align: center;
+    border-radius: 6px;
+    padding: 40px 50px;
+    transition: all 0.3s ease;
+  }
+  
+  .categories .categories-content .card:hover {
+    background: rgba(181, 0, 252, 0.6);
+    border: #000;
+    border-style: ridge;
+  }
+  
+  .categories .categories-content .card .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+  }
+  
+  .categories .categories-content .card .box .categoriesLinks {
+    margin-top: 25px;
+    display: flex;
+  }
+  
+  .categories .categories-content .card .box a,
+  .categories .categories-content .card .box span {
+    background: var(--primary);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 10px;
+    margin: 10px 8px;
+    border-radius: 6px;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease;
+  }
+  
+  .categories .categories-content .card .box img:hover,
+  .categories .categories-content .card .box .categoriesLinks .link1:hover,
+  .categories .categories-content .card .box .categoriesLinks .link2:hover {
+    transform: scale(1.2);
+  }
+  
+  .categories .categories-content .card:hover .text {
+    font-weight: 600;
+    transform: scale(1.15);
+    transition: all 0.3s ease;
+  }
+  
+  .categories .categories-content .card .text {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+  }
+  
+  .categories .categories-content .card img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid var(--primary);
+    transition: all 0.3s ease;
+  }
+  
+  .categories .categories-content .card:hover .box a,
+  .categories .categories-content .card:hover .box a {
+    border: 2px solid #000;
+  }
+  
+  .categories .categories-content .card:hover img {
+    border-color: #000;
+    border-style: double;
+  }
+  
