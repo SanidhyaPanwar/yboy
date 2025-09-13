@@ -1,11 +1,11 @@
 import React from "react";
-import pic1 from "../img/kotakcherry_logo.jpeg";
-import vid1 from "../img/cherry.mp4";
-import pic2 from "../img/barclaysLogo.png";
-import pic3 from "../img/tcs.jpg";
-import pic4 from "../img/twowaits.png";
-import pic5 from "../img/ieo.jpg";
-import pic6 from "../img/IC-KIET.jpg";
+import pic1 from "../media/kotakcherry_logo.jpeg";
+import vid1 from "../media/cherry.mp4";
+import pic2 from "../media/barclaysLogo.png";
+import pic3 from "../media/tcs.jpg";
+import pic4 from "../media/twowaits.png";
+import pic5 from "../media/ieo.jpg";
+import pic6 from "../media/IC-KIET.jpg";
 
 const experiences = [
   {
@@ -64,8 +64,8 @@ const experiences = [
       "Mentored 100+ students in full-stack web development, focusing on the MERN stack.",
       "Conducted live coding sessions, hands-on workshops, and range-based learning modules.",
       "Hosted doubt-clearing sessions and technical webinars for better concept clarity.",
-      "Guided students in building real-world ranges and improving their problem-solving skills.",
-      "Provided career advice and helped students with their final-year ranges and internships.",
+      "Guided students in building real-world categories and improving their problem-solving skills.",
+      "Provided career advice and helped students with their final-year categories and internships.",
     ],
     link: "http://tathastu.twowaits.in/",
   },

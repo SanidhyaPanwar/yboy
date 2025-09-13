@@ -1,58 +1,96 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import pic1 from '../img/animalKeychains.jpg';
-import pic2 from '../img/osi.png';
-import pic3 from '../img/ig.JPG';
-import pic4 from '../img/Portfolio.JPG';
-import pic5 from '../img/breakingbad.png';
-import pic6 from '../img/covid.jpg';
+import React from "react";
+import { Link } from "react-router-dom";
+import pic1 from "../media/animalKeychains.jpg";
+import pic2 from "../media/dreamCatchers.jpg";
+import pic3 from "../media/crochetBags.jpg";
+import pic4 from "../media/Portfolio.JPG";
+import pic5 from "../media/breakingbad.png";
+import pic6 from "../media/covid.jpg";
 
-const Ranges = () => {
-	return (
-		<section className="ranges" id="ranges">
-			<div className="max-width">
-				<h2 className="title">My Ranges</h2>
-				<div className="range-content">
-					<div className="card">
-						<div className="box">
-							<img src={pic1} alt="AnimalKeychains" />
-							<div className="text">Animal Keychains</div>
-							<p>
-								This is our cute crochet animal themed keychains.
-							</p>
-							<div className="rangeLinks">
-							<div className="link1">
-									<a href="https://www.instagram.com/p/CddKLqgLXnD/?img_index=1" target="_blank" rel="noreferrer">
-										Visit Range
-									</a>
-								</div>
-								<div className="link2">
-									<Link to="/range/animal-keychains">Know More</Link>
-								</div>
-							</div>
-						</div>
-					</div>
-					{/* <div className="card">
-						<div className="box">
-							<img src={pic2} alt="" />
-							<div className="text">OSI Farming</div>
-							<p>
-								It is a NodeJS based website that rents out farm equipment to poor farmers who can't afford to buy their
-								own.
-							</p>
-							<div className="rangeLinks">
-								<div className="link1">
-									<a href="https://www.instagram.com/p/CddKLqgLXnD/?img_index=1" target="_blank" rel="noreferrer">
-										Visit Range
-									</a>
-								</div>
-								<div className="link2">
-									<Link to="/range/osi-farming">Know More</Link>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="card">
+const Categories = () => {
+  return (
+    <section className="categories" id="categories">
+      <div className="max-width">
+        <h2 className="title">Our Categories</h2>
+        <div className="range-content">
+          <div className="card">
+            <div className="box">
+              <img src={pic1} alt="Animal Keychains" />
+              <div className="text">Animal Keychains</div>
+              <p>
+                Cute crochet animal-themed keychains; handmade, colorful, and
+                the perfect little companions to carry with you or gift to
+                someone special.
+              </p>
+              <div className="rangeLinks">
+                <div className="link1">
+                  <a
+                    href="https://www.instagram.com/p/CddKLqgLXnD/?img_index=1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Visit Range
+                  </a>
+                </div>
+                <div className="link2">
+                  <Link to="/range/animal-keychains">Know More</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="box">
+              <img src={pic2} alt="Dream Catchers" />
+              <div className="text">Dream Catchers</div>
+              <p>
+                Beautiful hand-crocheted dreamcatchers in vibrant colors and
+                delicate patterns; bringing charm, positivity, and a boho touch
+                to any space.
+              </p>
+              <div className="rangeLinks">
+                <div className="link1">
+                  <a
+                    href="https://www.instagram.com/yourboxofyarn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Visit Range
+                  </a>
+                </div>
+                <div className="link2">
+                  <Link to="/range/dream-catchers">Know More</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="box">
+              <img src={pic3} alt="Crochet Bags" />
+              <div className="text">Crochet Bags</div>
+              <p>
+                Stylish hand-crocheted bags; durable, eco-friendly, and designed
+                to add a unique handmade charm to your everyday look.
+              </p>
+              <div className="rangeLinks">
+                <div className="link1">
+                  <a
+                    href="https://www.instagram.com/yourboxofyarn"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Visit Range
+                  </a>
+                </div>
+                <div className="link2">
+                  <Link to="/range/crochet-bags">Know More</Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/*<div className="card">
 						<div className="box">
 							<img src={pic3} alt="" />
 							<div className="text">Sanidhya Insta</div>
@@ -132,10 +170,10 @@ const Ranges = () => {
 							</div>
 						</div>
 					</div> */}
-				</div>
-			</div>
-		</section>
-	);
+        </div>
+      </div>
+    </section>
+  );
 };
 
-export default Ranges;
+export default Categories;

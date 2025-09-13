@@ -13,7 +13,7 @@ const Skills = () => {
 							I have acquired knowledge of Front End Development by regularly educating myself on new and
 							better ways of doing things.
 							<br />
-							I am continuously trying to learn something new and put it into practise through Ranges.
+							I am continuously trying to learn something new and put it into practise through Categories.
 						</p>
 						<Link to="/skill">Technologies Known</Link>
 					</div>
@@ -88,7 +88,7 @@ const Skills = () => {
 							The inner workings of things fascinate me, which is why I'm interested in Back End
 							Development.
 							<br />
-							I have developed various significant ranges such as OSI Farming Equipment on Rent,
+							I have developed various significant categories such as OSI Farming Equipment on Rent,
 							Instagram Clone and many more to put my knowledge of back end development into practise.
 						</p>
 						<a href="https://www.linkedin.com/in/sanidhya-panwar-824504180/">Go to my LinkedIn</a>

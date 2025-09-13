@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import pic1 from '../../img/Range/OSI/osi.png';
-import pic2 from '../../img/Range/OSI/poorFarmer.jpg';
-import pic3 from '../../img/Range/OSI/tech.jpg';
-import pic4 from '../../img/Range/OSI/feature.jpg';
+import pic1 from '../../media/categories/OSI/osi.png';
+import pic2 from '../../media/categories/OSI/poorFarmer.jpg';
+import pic3 from '../../media/categories/OSI/tech.jpg';
+import pic4 from '../../media/categories/OSI/feature.jpg';
 
 const OsiFarming = () => {
 	return (
@@ -93,7 +93,7 @@ const OsiFarming = () => {
 							<li>PDF Invoice generation and download from order history page</li>
 							<li>Credit/Debit Card payment feature</li>
 							<li>User can buy any product or sell their own products as well</li>
-							<Link to="/ranges">Back to Ranges</Link>
+							<Link to="/categories">Back to Categories</Link>
                         </ul>
 					</div>
 					<div className="column left">

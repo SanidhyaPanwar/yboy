@@ -1,7 +1,7 @@
 import React from "react";
-import pic1 from "../img/kiet.jpg";
-import pic2 from "../img/dps.png";
-import pic3 from "../img/dps.jpg";
+import pic1 from "../media/kiet.jpg";
+import pic2 from "../media/dps.png";
+import pic3 from "../media/dps.jpg";
 
 const educationData = [
 	{

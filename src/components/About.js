@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../img/yboy.jpg';
+import logo from '../media/yboy.jpg';
 
 const About = () => {
 	return (

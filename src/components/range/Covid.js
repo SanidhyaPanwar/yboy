@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import pic1 from '../../img/Range/Covid/covid.png';
-import pic2 from '../../img/Range/Covid/goal.png';
-import pic3 from '../../img/Range/Covid/tech.png';
-import pic4 from '../../img/Range/Covid/feature.png';
+import pic1 from '../../media/categories/Covid/covid.png';
+import pic2 from '../../media/categories/Covid/goal.png';
+import pic3 from '../../media/categories/Covid/tech.png';
+import pic4 from '../../media/categories/Covid/feature.png';
 
 const Covid = () => {
 	return (
@@ -81,7 +81,7 @@ const Covid = () => {
 							<li>User can select any country from search box and see results</li>
 							<li>User also sees a graphical representation with different colours to increase clarity</li>
 							<li>User can see daily increase as well</li>
-                            <Link to="/ranges">Back to Ranges</Link>
+                            <Link to="/categories">Back to Categories</Link>
                         </ul>
 					</div>
 					<div className="column left">

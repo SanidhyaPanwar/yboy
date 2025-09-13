@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import pic1 from "../../img/Range/AnimalKeychains/mr-otto.jpg";
-import pic2 from "../../img/Range/AnimalKeychains/mr-hootie.jpg";
-import pic3 from "../../img/Range/AnimalKeychains/miss-charmie.png";
-import pic4 from "../../img/Range/AnimalKeychains/oogway-junior.png";
+import pic1 from "../../media/categories/animalKeychains/mr-otto.jpg";
+import pic2 from "../../media/categories/animalKeychains/mr-hootie.jpg";
+import pic3 from "../../media/categories/animalKeychains/miss-charmie.png";
+import pic4 from "../../media/categories/animalKeychains/oogway-junior.png";
 
 const AnimalKeychains = () => {
   return (
@@ -137,8 +137,8 @@ const AnimalKeychains = () => {
 
         {/* Back link */}
         <div style={{ textAlign: "center" }}>
-          <Link to="/ranges" className="btn">
-            ← Back to All Ranges
+          <Link to="/categories" className="btn">
+            ← Back to All Categories
           </Link>
         </div>
       </div>

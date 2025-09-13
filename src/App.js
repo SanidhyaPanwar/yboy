@@ -7,13 +7,13 @@ import Education from './components/Education';
 import Interests from './components/Interest';
 import Skill from './components/Skill';
 import Skills from './components/Skills';
-import Ranges from './components/Range';
+import Categories from './components/Range';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import OsiFarming from './components/range/OsiFarming';
+import DreamCatchers from './components/range/DreamCatchers';
 import AnimalKeychains from './components/range/AnimalKeychains';
 import Indrapal from './components/range/Indrapal';
-import SanidhyaInsta from './components/range/SanidhyaInsta';
+import CrochetBags from './components/range/CrochetBags';
 import Covid from './components/range/Covid';
 import BreakingBad from './components/range/BreakingBad';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
@@ -31,12 +31,12 @@ function App() {
         <Route path="/interests" element={<Interests />} />
         <Route path="/skill" element={<Skill />} />
         <Route path="/skills" element={<Skills />} />
-        <Route path="/ranges" element={<Ranges />} />
+        <Route path="/categories" element={<Categories />} />
         <Route path="/contact" element={<Contact />} />
         {/* Range Routes */}
         <Route path="/range/animal-keychains" element={<AnimalKeychains />} />
-        <Route path="/range/osi-farming" element={<OsiFarming />} />
-        <Route path="/range/sanidhya-insta" element={<SanidhyaInsta />} />
+        <Route path="/range/dream-catchers" element={<DreamCatchers />} />
+        <Route path="/range/crochet-bags" element={<CrochetBags />} />
         <Route path="/range/breaking-bad" element={<BreakingBad />} />
         <Route path="/range/indrapal" element={<Indrapal />} />
         <Route path="/range/covid" element={<Covid />} />

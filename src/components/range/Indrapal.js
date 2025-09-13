@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import pic1 from '../../img/Range/Indrapal/homepage.png';
-import pic2 from '../../img/Range/Indrapal/goal.png';
-import pic3 from '../../img/Range/Indrapal/tech.jpg';
-import pic4 from '../../img/Range/Indrapal/feature.png';
+import pic1 from '../../media/categories/Indrapal/homepage.png';
+import pic2 from '../../media/categories/Indrapal/goal.png';
+import pic3 from '../../media/categories/Indrapal/tech.jpg';
+import pic4 from '../../media/categories/Indrapal/feature.png';
 
 const Indrapal = () => {
 	return (
@@ -80,7 +80,7 @@ const Indrapal = () => {
 							<li>Detailed knowledge related to my father's degree and expertise</li>
 							<li>The website is deployed on heroku app, the patients can access it from anywhere anytime</li>
 							<li>Detailed mentioning about the services offered at clinic</li>
-                            <Link to="/ranges">Back to Ranges</Link>
+                            <Link to="/categories">Back to Categories</Link>
                         </ul>
 					</div>
 					<div className="column left">

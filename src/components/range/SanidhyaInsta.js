@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import pic1 from '../../img/Range/SanidhyaInsta/sanidhyaInsta.png';
-import pic2 from '../../img/Range/SanidhyaInsta/goal.png';
-import pic3 from '../../img/Range/SanidhyaInsta/tech.png';
-import pic4 from '../../img/Range/SanidhyaInsta/feature.png';
+import pic1 from '../../media/categories/SanidhyaInsta/sanidhyaInsta.png';
+import pic2 from '../../media/categories/SanidhyaInsta/goal.png';
+import pic3 from '../../media/categories/SanidhyaInsta/tech.png';
+import pic4 from '../../media/categories/SanidhyaInsta/feature.png';
 
 const SanidhyaInsta = () => {
 	return (
@@ -88,7 +88,7 @@ const SanidhyaInsta = () => {
 							<li>User can follow and unfollow other accounts</li>
 							<li>User can choose to see all posts or only the people they follow</li>
 							<li>It also allows us to like and comment on other's posts</li>
-							<Link to="/ranges">Back to Ranges</Link>
+							<Link to="/categories">Back to Categories</Link>
                         </ul>
 					</div>
 					<div className="column left">

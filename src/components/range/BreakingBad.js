@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import pic1 from '../../img/Range/BreakingBad/breakingBad.jpg';
-import pic2 from '../../img/Range/BreakingBad/goal.png';
-import pic3 from '../../img/Range/BreakingBad/tech.jpg';
-import pic4 from '../../img/Range/BreakingBad/feature.png';
+import pic1 from '../../media/categories/BreakingBad/breakingBad.jpg';
+import pic2 from '../../media/categories/BreakingBad/goal.png';
+import pic3 from '../../media/categories/BreakingBad/tech.jpg';
+import pic4 from '../../media/categories/BreakingBad/feature.png';
 
 const BreakingBad = () => {
 	return (
@@ -82,7 +82,7 @@ const BreakingBad = () => {
 							<li>Detailed info on characters by flipping their photo card</li>
 							<li>Deployed on Herokuapp, hence accessible anywhere</li>
 						</ul>
-                        <Link to="/ranges">Back to Ranges</Link>
+                        <Link to="/categories">Back to Categories</Link>
 					</div>
 					<div className="column left">
 						<img src={pic4} alt="Profile Pic" className="image-right" />
